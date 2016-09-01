@@ -14,7 +14,7 @@ function draw() {
 
  /* HEAD */
   if (mouseIsPressed){
-    fill(245, 200, 51);
+    fill(mouseX, mouseY, 25);
   } else{
   fill(30, 40, 84);
   };
